@@ -13,6 +13,11 @@
         /// <summary>
         /// Persian Language
         /// </summary>
-        Persian
+        Persian,
+
+        /// <summary>
+        /// 汉语
+        /// </summary>
+        Chinese
     }
 }

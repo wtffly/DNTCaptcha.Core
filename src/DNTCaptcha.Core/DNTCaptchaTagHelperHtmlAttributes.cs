@@ -36,7 +36,7 @@ namespace DNTCaptcha.Core
         /// The language of the captcha. It's default value is Persian.
         /// </summary>
         [HtmlAttributeName("asp-captcha-generator-language")]
-        public Language Language { set; get; } = Language.Persian;
+        public Language Language { set; get; } = Language.Chinese;
 
         /// <summary>
         /// The max value of the captcha. It's default value is 9000.

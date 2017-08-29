@@ -18,7 +18,7 @@ namespace DNTCaptcha.Core
         /// <summary>
         /// The language of captcha generator. It's default value is Persian.
         /// </summary>
-        public Language CaptchaGeneratorLanguage { set; get; } = Language.Persian;
+        public Language CaptchaGeneratorLanguage { set; get; } = Language.Chinese;
 
         /// <summary>
         /// Validation error message. It's default value is `لطفا کد امنیتی را به رقم وارد نمائید`.

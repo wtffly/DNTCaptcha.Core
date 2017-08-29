@@ -28,6 +28,10 @@
         /// <summary>
         /// Thousands group
         /// </summary>
-        Thousands
+        Thousands,
+        /// <summary>
+        /// 中国千
+        /// </summary>
+        ChineseThousands,
     }
 }

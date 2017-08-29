@@ -15,7 +15,7 @@ namespace DNTCaptcha.TestWebApp.Controllers
         [HttpPost, ValidateAntiForgeryToken]
         [ValidateDNTCaptcha(ErrorMessage = "Please enter the security code as a number.",
                             IsNumericErrorMessage = "The input value should be a number.",
-                            CaptchaGeneratorLanguage = Language.English)]
+                            CaptchaGeneratorLanguage = Language.Chinese)]
         public IActionResult Index([FromForm]AccountViewModel data)
         {
             if (ModelState.IsValid)
@@ -30,7 +30,7 @@ namespace DNTCaptcha.TestWebApp.Controllers
         [HttpPost, ValidateAntiForgeryToken]
         [ValidateDNTCaptcha(ErrorMessage = "Please enter the security code as a number.",
                             IsNumericErrorMessage = "The input value should be a number.",
-                            CaptchaGeneratorLanguage = Language.English)]
+                            CaptchaGeneratorLanguage = Language.Chinese)]
         public IActionResult Login2([FromForm]AccountViewModel data)
         {
             if (ModelState.IsValid)
